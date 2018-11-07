@@ -1,0 +1,14 @@
+{
+  "name": "vue-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node_express_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dane N",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
