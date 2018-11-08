@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/png" href="/media/favicon.png"/>
+
+    <title>VueJS Tutorial Event Modifiers</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <script src="https://unpkg.com/vue"></script>
+<meta name="source" content="https://www.youtube.com/watch?v=VqKjr4I4Fdo&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=7"> 
+</head>
+<body>
+    <div id="vue-app">
+        <h1>Events & Modifiers</h1>
+        <button v-on:click.once="add(1)">Add a Year</button>
+        <button v-on:click="subtract(1)">Substract a Year</button>
+        <button v-on:dblclick="add(10)">Add a Year</button>
+        <button v-on:dblclick="subtract(10)">Substract a Year</button>
+        <p>My age is {{ age }}</p>
+        <div id="canvas" v-on:mousemove="updateXY">
+            {{ x }}, {{ y }}
+
+        </div>
+        <a v-on:click.prevent="click" href="http://www.danenagy.com">Dane  Nagy</a>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
