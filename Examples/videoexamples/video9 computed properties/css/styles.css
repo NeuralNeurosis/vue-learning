@@ -1,0 +1,15 @@
+*{color:black;}
+#canvas{
+    width: 600px;
+    padding:200px 20px;
+    text-align: center;
+    border:1px solid #333;
+}
+body{
+    font-family: 'KoHo',sans-serif;
+    background:url(../media/water-3711257_1920.jpg);
+}
+#vue-app{
+    background: rgba(255, 255, 255, .75);
+    padding: 2em;
+}
